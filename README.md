@@ -8,3 +8,4 @@
 4. add db package, Car entity and matching repositories
 5. add domain package and service
 6. add an REST API and HTTP client
+7. add missing Flyway migration
