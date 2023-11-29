@@ -20,3 +20,6 @@ Content-Type: application/json
   "year": 2020,
   "color": "White"
 }
+
+### GET ALL CARS FROM REMOTE (1000)
+GET http://localhost:8080/api/external-cars
