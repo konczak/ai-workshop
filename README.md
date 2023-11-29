@@ -7,4 +7,4 @@
 3. decide to add h2 driver in Gradle and update properties
 4. add db package, Car entity and matching repositories
 5. add domain package and service
-
+6. add an REST API and HTTP client

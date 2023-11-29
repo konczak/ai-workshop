@@ -1,0 +1,22 @@
+### GET BY MODEL
+GET {{ai-workshop-address}}/cars/model/{{model}}
+
+### GET BY BRAND
+GET {{ai-workshop-address}}/cars/brand/{{brand}}
+
+### GET BY MODEL AND BRAND
+GET {{ai-workshop-address}}/cars?model={{model}}&brand={{brand}}
+
+### GET ALL
+GET {{ai-workshop-address}}/cars
+
+### ADD CAR
+POST {{ai-workshop-address}}/cars
+Content-Type: application/json
+
+{
+  "brand": "Skoda",
+  "model": "Fabia",
+  "year": 2020,
+  "color": "White"
+}
