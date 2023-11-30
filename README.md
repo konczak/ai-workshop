@@ -10,3 +10,7 @@
 6. add an REST API and HTTP client
 7. add missing Flyway migration
 8. introduce Retrofit and MyFakeApi client, expose endpoint to retrieve external data [MyFakeApi](https://myfakeapi.com/)
+9. Junit 5 and Mockito tests
+   1. unit test
+   2. integration test
+   3. parametrized test
