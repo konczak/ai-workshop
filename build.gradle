@@ -20,6 +20,11 @@ dependencies {
 	implementation 'org.springframework.boot:spring-boot-starter-web'
 	implementation 'org.flywaydb:flyway-core'
 	testImplementation 'org.springframework.boot:spring-boot-starter-test'
+
+	// add dependency lombok
+	implementation 'org.projectlombok:lombok'
+	annotationProcessor 'org.projectlombok:lombok'
+
 }
 
 tasks.named('test') {
