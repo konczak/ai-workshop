@@ -25,6 +25,9 @@ dependencies {
 	implementation 'org.projectlombok:lombok'
 	annotationProcessor 'org.projectlombok:lombok'
 
+	// add dependency h2 driver
+	implementation 'com.h2database:h2'
+
 }
 
 tasks.named('test') {
