@@ -1,5 +1,6 @@
 package pl.konczak.aiworkshop.db;
 
+import jakarta.persistence.Column;
 import jakarta.persistence.Entity;
 import jakarta.persistence.GeneratedValue;
 import jakarta.persistence.GenerationType;
@@ -19,6 +20,7 @@ public class Car {
     private int id;
     private String brand;
     private String model;
+    @Column(name = "car_year")
     private int year;
     private String color;
 

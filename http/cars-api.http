@@ -1,0 +1,16 @@
+### GET ALL CARS
+GET http://localhost:8080/cars
+
+### ADD CAR
+POST http://localhost:8080/cars
+Content-Type: application/json
+
+{
+  "brand": "BMW",
+  "model": "Q4",
+  "year": 2023,
+  "color": "blue"
+}
+
+### FIND ALL BY MODEL AND BRAND
+GET http://localhost:8080/cars?brand=BMW&model=Q4
